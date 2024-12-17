@@ -1,0 +1,34 @@
+/* variable styles */
+:root{
+    --primary_clr: #FFFFFF;
+    --secondary_clr: #201513;
+    --accent: #3E6AE1;
+    --gray: #F9F9F9;
+    --light_gray: #5c5e62; 
+    --dark_gray: #393c41;
+}
+/* reset default styles */
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+outline: none;
+  text-decoration: none;
+}
+/* common and shared style start from here */
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* individual element style start from */
