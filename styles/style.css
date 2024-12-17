@@ -57,6 +57,11 @@ body {
     outline: 0;
     color: var(--secondary_clr);
 }
+.centred{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* individual element style start from here */
 /* header style start form here */
 /* nav style start form here*/
@@ -91,5 +96,16 @@ body {
 .nav .nav__icon .nav__icon-link i:hover{
     background: rgba(92, 94, 98, 20%);
 }
+.hero__content-wrapper{
+    text-align: center;
+}
 /* nav style end here */
+/* hero section style start form here*/
+.hero__heading{
+    font-size: 3.5rem;
+    color: var(--primary_clr);
+    margin: 50px 0 20px 0;
+    font-weight: 600;
+}
+/* hero section style end here */
 /* header style end here */
