@@ -4,8 +4,10 @@
     --secondary_clr: #201513;
     --accent: #3E6AE1;
     --gray: #F9F9F9;
-    --light_gray: #5c5e62; 
+    --light_gray: rgb(92, 94, 98); 
     --dark_gray: #393c41;
+    --opacity: 0.20;
+    --radius: 5px
 }
 /* reset default styles */
 *,
@@ -31,4 +33,63 @@ body {
   font-size: 1rem;
   font-weight: 400;
 }
-/* individual element style start from */
+.container {
+    max-width: 1440px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.background{
+    height: 100vh;
+    background: url(/image/Hero_bg.png) no-repeat center;
+    background-size: cover;
+}
+.cta{
+    width: 252px;
+    padding: 10px 24px;
+    font-size: 16;
+    line-height: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: var(--radius);
+    background: var(--primary_clr);
+    border: 0;
+    outline: 0;
+    color: var(--secondary_clr);
+}
+/* individual element style start from here */
+/* header style start form here */
+/* nav style start form here*/
+.nav{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .nav__logo {
+    width: 150px;
+}
+.nav .nav__menu .nav__menu-list {
+    display: flex;
+}
+.nav__menu .nav__menu-item .nav__menu-link {
+    font-weight: 500;
+    color: var(--primary_clr);
+    padding: 8px 15px;
+    border-radius: var(--radius);
+    transition: ease-in 300ms;
+}
+.nav__menu-item .nav__menu-link:hover{
+    background: rgba(92, 94, 98, 20%);
+}
+.nav .nav__icon .nav__icon-link i{
+    font-size: 22px;
+    color: var(--primary_clr);
+    padding: 6px;
+    border-radius: var(--radius);
+    transition: ease-in 300ms;
+}
+.nav .nav__icon .nav__icon-link i:hover{
+    background: rgba(92, 94, 98, 20%);
+}
+/* nav style end here */
+/* header style end here */
