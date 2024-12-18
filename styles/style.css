@@ -59,6 +59,7 @@ body {
     cursor: pointer;
     outline: 0;
     border-radius: var(--radius);
+    text-transform: capitalize;
 }
 .primary-btn{
     background: var(--primary_clr);
@@ -122,6 +123,7 @@ section{
     margin: 0;
     font-weight: 600;
     color: var(--primary_clr);
+    text-transform: capitalize;
 }
 .content__subheading-link,
 .content__title-link{
@@ -217,3 +219,23 @@ header{
     text-transform: uppercase;
 }
 /* Model Cybertrack section style end here */
+/* Solar Panel section style start form here */
+#Solar-panel{
+    background-image: url(/image/SolarPanels.avif);
+}
+/* Solar Panel section style end here */
+/* Solar Roof section style start form here */
+#Solar-roof{
+    background-image: url(/image/SolarRoof.png);
+}
+/* Solar Roof section style end here */
+/* Powerwall section style start form here */
+#Powerwall{
+    background-image: url(/image/Accessories.png);
+}
+/* Powerwall section style end here */
+/* Accessories section style start form here */
+#Accessories{
+    background-image: url(/image/Accessories.png);
+}
+/* Accessories section style end here */
