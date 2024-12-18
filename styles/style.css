@@ -184,3 +184,8 @@ header{
     width: 300px;
 }
 /* Model X section style end here */
+/* Model S section style start form here */
+#ModelS {
+    background-image: url(/image/Model_S.png);
+}
+/* Model S section style end here */
