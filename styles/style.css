@@ -4,7 +4,7 @@
     --secondary_clr: #201513;
     --accent: #3E6AE1;
     --gray: #F9F9F9;
-    --light_gray: rgb(92, 94, 98); 
+    --light_gray: #5c5e62; 
     --dark_gray: #393c41;
     --opacity: 0.20;
     --radius: 5px
@@ -68,6 +68,26 @@ body {
     background: var(--accent);
     color: var(--primary_clr);
 }
+.tertiary-btn{
+    border-radius: 0;
+    background: rgba(11, 11, 11, 0.70);
+    color: var(--light_gray);
+    transition: ease-in 300ms;
+}
+.tertiary-btn:hover{
+    background: rgba(22, 22, 22, 0.90);
+}
+.btn-top-border-wrapper .tertiary-btn{
+    margin: 3px 0 0 0;
+}
+.btn-top-border{
+    width: 252px;
+    height: 3px;
+    background: var(--light_gray);
+}
+.btn-wrapper > .tertiary-btn{
+    border: 1px solid var(--light_gray);
+} 
 .centred{
     width: 100%;
     display: flex;
@@ -189,3 +209,11 @@ header{
     background-image: url(/image/Model_S.png);
 }
 /* Model S section style end here */
+/* Model Cybertrack section style start form here */
+#Cybertrack{
+    background-image: url(/image/Cybertruck.png);
+}
+.content__title-uppercase{
+    text-transform: uppercase;
+}
+/* Model Cybertrack section style end here */
