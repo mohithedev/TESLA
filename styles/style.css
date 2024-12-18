@@ -116,6 +116,7 @@ section{
     color: var(--primary_clr);
     margin: 0 0 15px 0;
     font-weight: 600;
+    text-transform: capitalize;
 }
 .content__subheading{
     font-size: 2.5rem;
@@ -239,3 +240,25 @@ header{
     background-image: url(/image/Accessories.png);
 }
 /* Accessories section style end here */
+/* CTA section style start form here */
+.video-wrapper{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.video-wrapper video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.video-wrapper .content-wrapper {
+    justify-content: center;
+    align-items: flex-start;
+}
+/* CTA section style end here */
