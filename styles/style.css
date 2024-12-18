@@ -41,8 +41,13 @@ body {
 }
 .background{
     height: 100vh;
-    background: url(/image/Hero_bg.png) no-repeat center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.btn-wrapper {
+    display: flex;
+    gap: 30px;
 }
 .cta{
     width: 252px;
@@ -50,21 +55,73 @@ body {
     font-size: 16;
     line-height: 17px;
     font-weight: 600;
-    cursor: pointer;
-    border-radius: var(--radius);
-    background: var(--primary_clr);
     border: 0;
+    cursor: pointer;
     outline: 0;
+    border-radius: var(--radius);
+}
+.primary-btn{
+    background: var(--primary_clr);
     color: var(--secondary_clr);
 }
+.secondary-btn{
+    background: var(--accent);
+    color: var(--primary_clr);
+}
 .centred{
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items : center;
+}
+section{
+    padding: 100px 0 50px 0;
+}
+.content-wrapper{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+
+}
+.content{
+    text-align: center;
+}
+.content__heading{
+    font-size: 3.5rem;
+    line-height: 56px;
+    color: var(--primary_clr);
+    margin: 0 0 15px 0;
+    font-weight: 600;
+}
+.content__subheading{
+    font-size: 2.5rem;
+    line-height: 44px;
+    margin: 0;
+    font-weight: 600;
+}
+.content__subheading .content__subheading-link{
+    color: var(--primary_clr);
+    border-bottom: 2px solid var(--primary_clr);
+    transition: ease-in 300ms;
+}
+.content__subheading .content__subheading-link:hover{
+    border-bottom: 3px solid var(--primary_clr);
+}
+.content__title{
+    font-size: 1.1rem;
+    line-height: 20px;
+    color: var(--primary_clr);
+    font-weight: 600;
 }
 /* individual element style start from here */
 /* header style start form here */
 /* nav style start form here*/
+header{
+    background-image: url(/image/Hero_bg.png);
+}
 .nav{
     display: flex; 
     justify-content: space-between;
@@ -96,16 +153,17 @@ body {
 .nav .nav__icon .nav__icon-link i:hover{
     background: rgba(92, 94, 98, 20%);
 }
+/* nav style end here */
+/* hero section style start form here*/
+.hero {
+    padding: 60px 0 0 0;
+}
 .hero__content-wrapper{
     text-align: center;
 }
-/* nav style end here */
-/* hero section style start form here*/
-.hero__heading{
-    font-size: 3.5rem;
-    color: var(--primary_clr);
-    margin: 50px 0 20px 0;
-    font-weight: 600;
-}
 /* hero section style end here */
 /* header style end here */
+/* ModelY section style start form here */
+#ModelY{
+    background-image: url(/image/Model_Y.png);
+}
