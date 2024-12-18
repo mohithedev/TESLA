@@ -167,3 +167,9 @@ header{
 #ModelY{
     background-image: url(/image/Model_Y.png);
 }
+/* ModelY style end here */
+/* Model3 section style start form here */
+#Model3{
+    background-image: url(/image/Model_3.png);
+}
+/* Model3 section style end here */
