@@ -7,7 +7,8 @@
     --light_gray: #5c5e62; 
     --dark_gray: #393c41;
     --opacity: 0.20;
-    --radius: 5px
+    --radius: 5px;
+    --transition: ease-in 300ms;
 }
 /* reset default styles */
 *,
@@ -73,7 +74,7 @@ body {
     border-radius: 0;
     background: rgba(11, 11, 11, 0.70);
     color: var(--light_gray);
-    transition: ease-in 300ms;
+    transition: var(--transition);
 }
 .tertiary-btn:hover{
     background: rgba(22, 22, 22, 0.90);
@@ -130,7 +131,7 @@ section{
 .content__title-link{
     color: var(--primary_clr);
     border-bottom: 2px solid var(--primary_clr);
-    transition: ease-in 300ms;
+    transition: var(--transition);
 }
 .content__subheading-link:hover,
 .content__title-link:hover{
@@ -164,7 +165,7 @@ header{
     color: var(--primary_clr);
     padding: 8px 15px;
     border-radius: var(--radius);
-    transition: ease-in 300ms;
+    transition: var(--transition);
 }
 .nav__menu-item .nav__menu-link:hover{
     background: rgba(92, 94, 98, 20%);
@@ -174,7 +175,7 @@ header{
     color: var(--primary_clr);
     padding: 6px;
     border-radius: var(--radius);
-    transition: ease-in 300ms;
+    transition: var(--transition);
 }
 .nav .nav__icon .nav__icon-link i:hover{
     background: rgba(92, 94, 98, 20%);
@@ -262,3 +263,57 @@ header{
     align-items: flex-start;
 }
 /* CTA section style end here */
+/* Terms and condition style start from here */
+#Terms .content{
+    max-width: 570px;
+
+}
+.content .content__paragraph{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--dark_gray);
+    margin: 0 0 30px 0;
+}
+.content__paragraph .content__paragraph-link{
+    font-weight: 600px;
+    color: var(--secondary_clr);
+    border-bottom: 1px solid var(--secondary_clr);
+    transition: var(--transition);
+}
+.content__paragraph .content__paragraph-link:hover{
+    border-bottom: 2px solid var(--secondary_clr);
+}
+/* Terms and condition style end here */
+/* footer area start form here */
+.footer-menu{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.footer-menu__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+.footer-menu__list-item{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.footer-menu__list-item-link{
+    color: var(--light_gray);
+}
+.schedule {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background: var(--gray);
+    box-shadow: 1px -6px 66px -11px var(--light_gray);
+}
+.schedule__title{
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 600;
+    color: var(--secondary_clr);
+}
