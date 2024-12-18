@@ -101,13 +101,16 @@ section{
     line-height: 44px;
     margin: 0;
     font-weight: 600;
+    color: var(--primary_clr);
 }
-.content__subheading .content__subheading-link{
+.content__subheading-link,
+.content__title-link{
     color: var(--primary_clr);
     border-bottom: 2px solid var(--primary_clr);
     transition: ease-in 300ms;
 }
-.content__subheading .content__subheading-link:hover{
+.content__subheading-link:hover,
+.content__title-link:hover{
     border-bottom: 3px solid var(--primary_clr);
 }
 .content__title{
@@ -173,3 +176,11 @@ header{
     background-image: url(/image/Model_3.png);
 }
 /* Model3 section style end here */
+/* Model X section style start form here */
+#ModelX{
+    background-image: url(/image/Model-X.png);
+}
+.content__title-box {
+    width: 300px;
+}
+/* Model X section style end here */
