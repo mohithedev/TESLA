@@ -310,6 +310,10 @@ header{
     padding: 10px;
     background: var(--gray);
     box-shadow: 1px -6px 66px -11px var(--light_gray);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 .schedule__title{
     font-size: 17px;
