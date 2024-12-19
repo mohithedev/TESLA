@@ -38,7 +38,7 @@ body {
     max-width: 1440px;
     width: 95%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
 }
 .background{
     height: 100vh;
@@ -92,16 +92,17 @@ body {
 } 
 .centred{
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items : center;
 }
-section{
+main section{
     padding: 100px 0 50px 0;
 }
 .content-wrapper{
     width: 100%;
-    height: 80vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -153,6 +154,7 @@ header{
     display: flex; 
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
 }
 .nav .nav__logo {
     width: 150px;
@@ -180,7 +182,6 @@ header{
 .nav .nav__icon .nav__icon-link i:hover{
     background: rgba(92, 94, 98, 20%);
 }
-/* nav style end here */
 /* hero section style start form here*/
 .hero {
     padding: 60px 0 0 0;
@@ -188,18 +189,15 @@ header{
 .hero__content-wrapper{
     text-align: center;
 }
-/* hero section style end here */
-/* header style end here */
+/* main area style start from here */
 /* ModelY section style start form here */
 #ModelY{
     background-image: url(/image/Model_Y.png);
 }
-/* ModelY style end here */
 /* Model3 section style start form here */
 #Model3{
     background-image: url(/image/Model_3.png);
 }
-/* Model3 section style end here */
 /* Model X section style start form here */
 #ModelX{
     background-image: url(/image/Model-X.png);
@@ -207,12 +205,10 @@ header{
 .content__title-box {
     width: 300px;
 }
-/* Model X section style end here */
 /* Model S section style start form here */
 #ModelS {
     background-image: url(/image/Model_S.png);
 }
-/* Model S section style end here */
 /* Model Cybertrack section style start form here */
 #Cybertrack{
     background-image: url(/image/Cybertruck.png);
@@ -220,27 +216,22 @@ header{
 .content__title-uppercase{
     text-transform: uppercase;
 }
-/* Model Cybertrack section style end here */
 /* Solar Panel section style start form here */
 #Solar-panel{
     background-image: url(/image/SolarPanels.avif);
 }
-/* Solar Panel section style end here */
 /* Solar Roof section style start form here */
 #Solar-roof{
     background-image: url(/image/SolarRoof.png);
 }
-/* Solar Roof section style end here */
 /* Powerwall section style start form here */
 #Powerwall{
     background-image: url(/image/Accessories.png);
 }
-/* Powerwall section style end here */
 /* Accessories section style start form here */
 #Accessories{
     background-image: url(/image/Accessories.png);
 }
-/* Accessories section style end here */
 /* CTA section style start form here */
 .video-wrapper{
     position: relative;
@@ -262,7 +253,6 @@ header{
     justify-content: center;
     align-items: flex-start;
 }
-/* CTA section style end here */
 /* Terms and condition style start from here */
 #Terms .content{
     max-width: 570px;
@@ -284,11 +274,14 @@ header{
 .content__paragraph .content__paragraph-link:hover{
     border-bottom: 2px solid var(--secondary_clr);
 }
-/* Terms and condition style end here */
 /* footer area start form here */
+footer{
+    margin: 0;
+    padding: 0;
+}
 .footer-menu{
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
 .footer-menu__list {
     display: flex;
@@ -309,7 +302,7 @@ header{
     width: 100%;
     padding: 10px;
     background: var(--gray);
-    box-shadow: 1px -6px 66px -11px var(--light_gray);
+    box-shadow:  1px -4px 22px -5px var(--light_gray);
     display: flex;
     gap: 10px;
     justify-content: center;

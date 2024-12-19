@@ -1,0 +1,15 @@
+/* responsive for mobile device */
+@media screen and (max-width: 576px) {
+  /* shared and common style */
+  
+}
+
+/* responsive for medium device */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  
+}
+
+/* responsive for large device */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  
+}
