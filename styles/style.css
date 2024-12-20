@@ -150,7 +150,7 @@ main section{
 /* header style start form here */
 /* navbar style start form here*/
 header{
-    background-image: url(/image/Hero_bg.png);
+    background-image: url(//image/Hero_bg.png);
 }
 .navbar {
     display: flex;
@@ -215,45 +215,45 @@ header{
 /* main area style start from here */
 /* ModelY section style start form here */
 #ModelY{
-    background-image: url(/image/Model_Y.png);
+    background-image: url(//image/Model_Y.png);
 }
 /* Model3 section style start form here */
 #Model3{
-    background-image: url(/image/Model_3.png);
+    background-image: url(//image/Model_3.png);
 }
 /* Model X section style start form here */
 #ModelX{
-    background-image: url(/image/Model-X.png);
+    background-image: url(//image/Model-X.png);
 }
 .content__title-box {
     width: 300px;
 }
 /* Model S section style start form here */
 #ModelS {
-    background-image: url(/image/Model_S.png);
+    background-image: url(//image/Model_S.png);
 }
 /* Model Cybertrack section style start form here */
 #Cybertrack{
-    background-image: url(/image/Cybertruck.png);
+    background-image: url(//image/Cybertruck.png);
 }
 .content__title-uppercase{
     text-transform: uppercase;
 }
 /* Solar Panel section style start form here */
 #Solar-panel{
-    background-image: url(/image/SolarPanels.avif);
+    background-image: url(//image/SolarPanels.avif);
 }
 /* Solar Roof section style start form here */
 #Solar-roof{
-    background-image: url(/image/SolarRoof.png);
+    background-image: url(//image/SolarRoof.png);
 }
 /* Powerwall section style start form here */
 #Powerwall{
-    background-image: url(/image/Powerwall.png);
+    background-image: url(//image/Powerwall.png);
 }
 /* Accessories section style start form here */
 #Accessories{
-    background-image: url(/image/Accessories.png);
+    background-image: url(//image/Accessories.png);
 }
 /* CTA section style start form here */
 .video-wrapper{
