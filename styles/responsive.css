@@ -1,44 +1,72 @@
-.hide{
-  display: none;
-}
 /* variable styles */
-:root{
-    --primary_clr: #FFFFFF;
-    --secondary_clr: #201513;
-    --accent: #3E6AE1;
-    --gray: #F9F9F9;
-    --light_gray: #5c5e62; 
-    --dark_gray: #393c41;
-    --opacity: 0.20;
-    --radius: 5px;
-    --transition: ease-in 300ms;
+:root {
+  --primary_clr: #ffffff;
+  --secondary_clr: #201513;
+  --accent: #3e6ae1;
+  --gray: #f9f9f9;
+  --light_gray: #5c5e62;
+  --dark_gray: #393c41;
+  --opacity: 0.2;
+  --radius: 5px;
+  --transition: ease-in 300ms;
 }
 /* responsive for mobile device */
 @media screen and (max-width: 576px) {
   /* shared and common style */
-  .cta{
+  main section {
+    padding: 30px 0 20px 0;
+  }
+  .cta {
     width: 110px;
     padding: 10px 7px;
     font-size: 14px;
     line-height: 17px;
     font-weight: 500;
-}
+  }
+  .btn-top-border {
+    width: 110px;
+  }
+  .footer-menu {
+    margin: 0 auto 20px;
+  }
+  .footer-menu__list {
+    flex-direction: column;
+    gap: 5;
+  }
+  .footer-menu__list-item {
+    font-weight: 500;
+    line-height: 10px;
+  }
+  .hide {
+    display: none;
+  }
+  #CTA .cta-heading{
+    font-size: 1.75rem;
+  }
 }
 
 /* responsive for medium device */
 @media screen and (min-width: 577px) and (max-width: 768px) {
-    .cta{
+  .cta {
     width: 170px;
     padding: 10px 24px;
     font-size: 14px;
     line-height: 17px;
     font-weight: 500;
-}
+  }
+  .btn-top-border {
+    width: 170px;
+  }
+  main section {
+    padding: 50px 0 30px 0;
+  }
 }
 
 /* responsive for large device */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-
+  main section {
+    padding: 50px 0 30px 0;
+  }
 }
 @media screen and (max-width: 1024px) {
   /* navbar */
@@ -57,27 +85,27 @@
     display: flex;
   }
   .navbar__toggle-btn {
-      border-radius: 5px;
-      display: block;
-    }
-    .navbar__menu-list {
-      flex-direction: column;
-      gap: 10px;
-      margin: 10px;
-    }
-    .navbar__icons {
-      margin-top: 10px;
-    }
-    .navbar__menu .navbar__menu-item {
-      text-align: center;
+    border-radius: 5px;
+    display: block;
   }
-  /* hero */
-    .content__heading{
+  .navbar__menu-list {
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+  }
+  .navbar__icons {
+    margin-top: 10px;
+  }
+  .navbar__menu .navbar__menu-item {
+    text-align: center;
+  }
+  .content__heading {
     font-size: 3rem;
     line-height: 48px;
   }
-  .hero__heading{
-    font-size: 2.5rem;
+  /* hero */
+  .hero__heading {
+    font-size: 2.2rem;
     line-height: 44px;
   }
 }

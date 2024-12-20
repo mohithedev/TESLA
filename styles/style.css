@@ -49,6 +49,8 @@ body {
 .btn-wrapper {
     display: flex;
     gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 .cta{
     width: 252px;
@@ -121,7 +123,7 @@ main section{
     text-transform: capitalize;
 }
 .content__subheading{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 44px;
     margin: 0;
     font-weight: 600;
@@ -247,7 +249,7 @@ header{
 }
 /* Powerwall section style start form here */
 #Powerwall{
-    background-image: url(/image/Accessories.png);
+    background-image: url(/image/Powerwall.png);
 }
 /* Accessories section style start form here */
 #Accessories{
