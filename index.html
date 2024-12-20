@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- all meta tags are here -->
     <meta charset="UTF-8">
@@ -21,10 +20,9 @@
     <!-- header area start from here -->
     <header class="background">
         <div class="container">
-            <!-- navbar from here -->
-            <nav class="nav">
-                <div class="nav__logo">
-                    <a class="nav__logo-link" href="index.html">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <a class="navbar__logo-link" href="index.html">
                         <svg class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon" viewBox="0 0 342 35"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill="#fff"
@@ -33,40 +31,45 @@
                         </svg>
                     </a>
                 </div>
-                <div class="nav__menu">
-                    <ul class="nav__menu-list">
-                        <li class="nav__menu-item">
-                            <a class="nav__menu-link" href="#">Vehicles</a>
+                <input type="checkbox" id="menu-toggle" class="navbar__checkbox">
+                <label for="menu-toggle" class="navbar__toggle-btn">Menu</label>
+                <div class="navbar__menu">
+                    <ul class="navbar__menu-list">
+                        <li class="navbar__menu-item">
+                            <a class="navbar__menu-link" href="#">Vehicles</a>
                         </li>
-                        <li class="nav__menu-item">
-                            <a class="nav__menu-link" href="#">Energy</a>
+                        <li class="navbar__menu-item">
+                            <a class="navbar__menu-link" href="#">Energy</a>
                         </li>
-                        <li class="nav__menu-item">
-                            <a class="nav__menu-link" href="#">Charging</a>
+                        <li class="navbar__menu-item">
+                            <a class="navbar__menu-link" href="#">Charging</a>
                         </li>
-                        <li class="nav__menu-item">
-                            <a class="nav__menu-link" href="#">Discover</a>
+                        <li class="navbar__menu-item">
+                            <a class="navbar__menu-link" href="#">Discover</a>
                         </li>
-                        <li class="nav__menu-item">
-                            <a class="nav__menu-link" href="#">Shop</a>
+                        <li class="navbar__menu-item">
+                            <a class="navbar__menu-link" href="#">Shop</a>
                         </li>
-                        <li class="nav__menu-item">
-                            <a class="nav__menu-link" href="#">We, Robot</a>
+                        <li class="navbar__menu-item">
+                            <a class="navbar__menu-link" href="#">We, Robot</a>
                         </li>
                     </ul>
-                </div>
-                <div class="nav__icon">
-                    <a href="#" class="nav__icon-link">
-                        <i class="fa-regular fa-circle-question"></i>
-                    </a>
-                    <a href="#" class="nav__icon-link">
-                        <i class="fa-solid fa-globe"></i>
-                    </a>
-                    <a href="#" class="nav__icon-link">
-                        <i class="fa-regular fa-circle-user"></i>
-                    </a>
+                    <div class="navbar__icon">
+                        <div>
+                            <a href="#" class="navbar__icon-link">
+                                <i class="fa-regular fa-circle-question"></i>
+                            </a>
+                            <a href="#" class="navbar__icon-link">
+                                <i class="fa-solid fa-globe"></i>
+                            </a>
+                            <a href="#" class="navbar__icon-link">
+                                <i class="fa-regular fa-circle-user"></i>
+                        </div>
+                        </a>
+                    </div>
                 </div>
             </nav>
+            <!-- navbar from here -->
             <div class="hero centred">
                 <div class="hero__content-wrapper">
                     <h1 class="hero__heading content__heading">$299/mo Leasing</h1>
@@ -344,5 +347,4 @@
         </a>
     </footer>
 </body>
-
 </html>

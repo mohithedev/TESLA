@@ -18,7 +18,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-outline: none;
+  outline: none;
   text-decoration: none;
 }
 /* common and shared style start from here */
@@ -146,41 +146,62 @@ main section{
 }
 /* individual element style start from here */
 /* header style start form here */
-/* nav style start form here*/
+/* navbar style start form here*/
 header{
     background-image: url(/image/Hero_bg.png);
 }
-.nav{
-    display: flex; 
-    justify-content: space-between;
+.navbar {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 20px 0;
+    position: relative;
 }
-.nav .nav__logo {
+.navbar__logo {
     width: 150px;
 }
-.nav .nav__menu .nav__menu-list {
+.navbar__menu {
     display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
 }
-.nav__menu .nav__menu-item .nav__menu-link {
+.navbar__menu-list {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 300px;
+}
+.navbar__menu .navbar__menu-item .navbar__menu-link {
     font-weight: 500;
     color: var(--primary_clr);
     padding: 8px 15px;
     border-radius: var(--radius);
     transition: var(--transition);
 }
-.nav__menu-item .nav__menu-link:hover{
+.navbar__menu-item .navbar__menu-link:hover{
     background: rgba(92, 94, 98, 20%);
 }
-.nav .nav__icon .nav__icon-link i{
+.navbar .navbar__icon .navbar__icon-link i{
     font-size: 22px;
     color: var(--primary_clr);
     padding: 6px;
     border-radius: var(--radius);
     transition: var(--transition);
 }
-.nav .nav__icon .nav__icon-link i:hover{
+.navbar .navbar__icon .navbar__icon-link i:hover{
     background: rgba(92, 94, 98, 20%);
+}
+.navbar__toggle-btn {
+  display: none;
+  background: var(--light_gray);
+  color: var(--primary_clr);
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+  z-index: 2;
+}
+.navbar__checkbox {
+  display: none;
 }
 /* hero section style start form here*/
 .hero {
